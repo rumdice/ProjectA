@@ -1,8 +1,12 @@
 # ProjectA
 인프라 : AWS ecr, ecs
+
 엔진 : Kestrel
+
 언어 : C#
+
 DB : mariaDB, redis
+
 기타 : docker, grpc
 
 
@@ -16,4 +20,6 @@ DB : mariaDB, redis
 
 # branch
 dev : 개발 브랜치
+
 master : 보관용 브랜치 (live)
+
