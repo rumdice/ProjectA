@@ -19,7 +19,7 @@ DB : mariaDB, redis
 
 
 # branch
-dev : 개발 브랜치
+develop : 개발 브랜치
 
 main : 제품 브랜치 (live)
 
