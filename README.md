@@ -21,5 +21,5 @@ DB : mariaDB, redis
 # branch
 dev : 개발 브랜치
 
-master : 보관용 브랜치 (live)
+main : 제품 브랜치 (live)
 
