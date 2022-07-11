@@ -8,8 +8,8 @@ namespace GameServer.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        [HttpPost("Signup")]
-        public async Task<LoginResponse> Signup(LoginRequest request)
+        [HttpPost("Login")]
+        public async Task<LoginResponse> Login(LoginRequest request)
         {
             return null;
         }
