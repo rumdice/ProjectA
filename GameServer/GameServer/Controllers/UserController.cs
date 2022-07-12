@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Protocol;
+using ServerLib;
 
 namespace GameServer.Controllers
 {
@@ -11,7 +12,8 @@ namespace GameServer.Controllers
         [HttpPost("Login")]
         public async Task<LoginResponse> Login(LoginRequest request)
         {
-            return null;
+            throw new Error(ErrorCode.INVAILD_ERROR);
+            //return null;
         }
     }
 }
